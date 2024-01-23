@@ -1,0 +1,3 @@
+include FarSSiBERT/*.bin
+include FarSSiBERT/*.json
+include FarSSiBERT/*.txt
