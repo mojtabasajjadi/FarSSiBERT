@@ -1,5 +1,5 @@
 
-FarSSiBERT : Farsi Semantic Similarity measurement based on BERT model
+FarSSiBERT: A Pre-trained Language Model for Semantic Similarity Measurement of Persian Informal Short Texts.
 
 ===============================================================================================
 
@@ -7,12 +7,12 @@ FarSSiBERT is a monolingual large language model based on Google’s BERT archit
 Paper presenting FarSSiBERT: DOI:-
 
 
-Included a python library for measuring the semantic similarity of Persian short texts.
+It included a Python library for measuring the semantic similarity of Persian short texts.
 + Text cleaning.
 + Specific tokenizer for informal Persian short text.
 + Word and sentence embeddings based on transformers.
 + Semantic Similarity Measurement.
-+ Pretrain BERT model for all downstream tasks especially informal texts.
++ Pre-train BERT model for all downstream tasks especially informal texts.
 
 How to use:
 
