@@ -20,17 +20,20 @@ How to use:
 + Import and the use it:
 
 from FarSSiBERT.SSMeasurement import SSMeasurement
+<br>
 text1 = "متن اول"
+<br>
 text2 = "متن دوم"
-new_object = SSMeasurement( text1 , text2 )
-label = new_object.get_similarity_label()
-similarity = new_object.get_cosine_similarity()
+<br>
+new_object = SSMeasurement( text1 , text2 )<br>
+label = new_object.get_similarity_label()<br>
+similarity = new_object.get_cosine_similarity()<br>
+<br>
 
-
-Requirements:
-+ pyhton=>3.7
-+ transformers==4.30.02
-+ torch==1.13.0
-+ scikit-learn==0.21.3
-+ numpy~=1.21.6
-+ sklearn~=0.0
+Requirements:<br>
++ pyhton=>3.7<br>
++ transformers==4.30.02<br>
++ torch==1.13.0<br>
++ scikit-learn==0.21.3<br>
++ numpy~=1.21.6<br>
++ sklearn~=0.0<br>
