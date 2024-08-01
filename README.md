@@ -2,7 +2,7 @@
 ## FarSSiBERT: A Novel Transformer-based Model for Semantic Similarity Measurement of Persian Social Networks Informal Texts.
 
 
-FarSSiBERT is a monolingual large language model based on Google’s BERT architecture. This model is pre-trained on large informal Persian short texts with various writing styles from numerous subjects with more than 104M tweets.
+FarSSiBERT is a monolingual large language model based on Google’s BERT architecture. This model is pre-trained on a large corpus of informal Persian short texts with various writing styles, including more than 104M tweets from diverse subjects.
 Paper presenting FarSSiBERT: <br>
 - DOI: https://doi.org/10.48550/arXiv.2407.19173
 
