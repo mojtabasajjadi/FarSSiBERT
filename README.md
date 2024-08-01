@@ -17,6 +17,7 @@ It included a Python library for measuring the semantic similarity of Persian sh
 + Download and install the FarSSiBERT python package.
 + Import and the use it:
 
+```python
   from FarSSiBERT.SSMeasurement import SSMeasurement
   <br>
   text1 = "متن اول"
@@ -27,6 +28,7 @@ It included a Python library for measuring the semantic similarity of Persian sh
   label = new_object.get_similarity_label()<br>
   similarity = new_object.get_cosine_similarity()<br>
   <br>
+```
 
 ## Requirements:<br>
   + pyhton=>3.7<br>
