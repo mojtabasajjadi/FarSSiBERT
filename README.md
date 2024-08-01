@@ -1,21 +1,22 @@
 
-## FarSSiBERT: A Pre-trained Language Model for Semantic Similarity Measurement of Persian Informal Short Texts.
+## FarSSiBERT: A Novel Transformer-based Model for Semantic Similarity Measurement of Persian Social Networks Informal Texts.
 
 
 FarSSiBERT is a monolingual large language model based on Google’s BERT architecture. This model is pre-trained on large informal Persian short texts with various writing styles from numerous subjects with more than 104M tweets.
-Paper presenting FarSSiBERT: DOI:https://doi.org/10.48550/arXiv.2407.19173
+Paper presenting FarSSiBERT: <br>
+- DOI: https://doi.org/10.48550/arXiv.2407.19173
 
 ## Features
 It included a Python library for measuring the semantic similarity of Persian short texts.
-+ Text cleaning.
-+ Specific tokenizer for informal Persian short text.
-+ Word and sentence embeddings based on transformers.
-+ Semantic Similarity Measurement.
-+ Pre-train BERT model for all downstream tasks especially informal texts.
+- Text cleaning.
+- Specific tokenizer for informal Persian short text.
+- Word and sentence embeddings based on transformers.
+- Semantic Similarity Measurement.
+- Pre-train BERT model for all downstream tasks especially informal texts.
 
 ## How to use:
 + Download and install the FarSSiBERT python package.
-+ Import and the use it:
++ Import and use as below:
 
 ```python
   from FarSSiBERT.SSMeasurement import SSMeasurement
@@ -30,9 +31,9 @@ It included a Python library for measuring the semantic similarity of Persian sh
 ```
 
 ## Requirements:<br>
-  + pyhton=>3.7<br>
-  + transformers==4.30.02<br>
-  + torch==1.13.0<br>
-  + scikit-learn==0.21.3<br>
-  + numpy~=1.21.6<br>
-  + sklearn~=0.0<br>
+  + pyhton=>3.7
+  + transformers==4.30.02
+  + torch==1.13.0
+  + scikit-learn==0.21.3
+  + numpy~=1.21.6
+  + sklearn~=0.0
