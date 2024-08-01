@@ -19,15 +19,14 @@ It included a Python library for measuring the semantic similarity of Persian sh
 
 ```python
   from FarSSiBERT.SSMeasurement import SSMeasurement
-  <br>
+
   text1 = "متن اول"
-  <br>
   text2 = "متن دوم"
-  <br>
-  new_object = SSMeasurement( text1 , text2 )<br>
-  label = new_object.get_similarity_label()<br>
-  similarity = new_object.get_cosine_similarity()<br>
-  <br>
+
+  new_instance = SSMeasurement( text1 , text2 )
+  label = new_instance.get_similarity_label()
+  similarity = new_instance.get_cosine_similarity()
+
 ```
 
 ## Requirements:<br>
